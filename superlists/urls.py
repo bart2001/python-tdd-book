@@ -18,4 +18,5 @@ from lists import views
 
 urlpatterns = [
     url(r'^$', views.home_page, name='home'),
+    #url(r'front_test', views.front_test, name='front_test')
 ]

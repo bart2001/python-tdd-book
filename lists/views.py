@@ -9,3 +9,6 @@ def home_page(request):
         return redirect('/')
     items = Item.objects.all()
     return render(request, 'home.html', {'items': items})
+
+# def front_test(request):
+#     return render(request, 'front_test.html')
